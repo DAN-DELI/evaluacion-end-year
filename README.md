@@ -7,9 +7,17 @@ Este repositorio contiene los ejercicios desarrollados para la evaluación de fi
 ## Estructura del proyecto
 
 evaluacion-fin-de-año.js
+
+
 ├── ejercicio1
+
+
 ├── ejercicio2
+
+
 ├── ejercicio3
+
+
 └── README.md
 
 ---
@@ -42,10 +50,10 @@ Ejercicio enfocado en reforzar el uso de funciones, modularización y lógica en
 
 ---
 
-## ▶Ejecución
+## Ejecución
 
-Ingresar desde la terminal a la carpeta del ejercicio deseado y al al archivo en si.
-Ejemplo donde "X" representa el numero del ejercicio:
+Ingresar desde la terminal a la carpeta del ejercicio deseado y al al archivo en si.  
+El siguiente es un ejemplo, donde "X" representa el numero del ejercicio:
 
 ```bash
 node ejercicioX/ejercicioX.js
