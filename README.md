@@ -1,4 +1,4 @@
-# Evaluación Final – JavaScript
+# Evaluación Final De Año – JavaScript
 
 Este repositorio contiene los ejercicios desarrollados para la evaluación de final de año.
 
@@ -49,13 +49,48 @@ desde consola, las valida, clasifica y procesa, asegurando que el programa:
 
 ---
 
-## Ejercicio 2
-Sistema de gestión de transacciones que incluye:
-- Registro y validación de datos por consola
-- Uso de promesas para simular carga asíncrona
-- Consumo con `async / await`
-- Clasificación de transacciones
-- Cálculo de estadísticas usando callbacks
+## Ejercicio 2 – Sistema de Gestión de Transacciones
+
+Este ejercicio simula un sistema de gestión de transacciones financieras que recibe datos por consola, los valida, los procesa de forma asíncrona y genera estadísticas, asegurando que el programa:
+
+- No se bloquee ante errores  
+- Maneje correctamente procesos asíncronos  
+- Clasifique y procese los datos de forma clara  
+- Muestre resultados comprensibles en consola  
+
+---
+
+### Funcionalidades principales
+
+- Registro de transacciones mediante entrada por consola  
+- Validación de datos ingresados (ID, cliente, tipo, monto, autorización)  
+- Almacenamiento de transacciones en un arreglo estructurado  
+- Simulación de carga asíncrona de datos utilizando **promesas**  
+- Consumo de la promesa mediante **async / await**  
+- Clasificación de transacciones en:
+  - Aceptadas  
+  - Denegadas  
+- Cálculo de estadísticas usando **callbacks**:
+  - Total de transacciones procesadas  
+  - Total de transacciones válidas  
+  - Total de transacciones rechazadas  
+  - Total de dinero por tipo de operación:
+    - Depósitos  
+    - Retiros  
+    - Transferencias  
+- Presentación de un resumen final en consola  
+
+---
+
+### Justificación técnica
+
+- El código está modularizado para separar responsabilidades y facilitar su comprensión.
+- Se utilizan **promesas** para simular procesos asíncronos sin bloquear la ejecución.
+- El uso de **async / await** permite un manejo más claro del flujo asíncrono.
+- Los **callbacks** se emplean para procesar estadísticas de forma flexible.
+- Las validaciones evitan errores en tiempo de ejecución.
+- El manejo de errores garantiza que el programa continúe funcionando ante fallos.
+
 
 ---
 
