@@ -4,7 +4,7 @@ Este repositorio contiene los ejercicios desarrollados para la evaluación de fi
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 evaluacion-fin-de-año.js
 ├── ejercicio1
@@ -14,12 +14,12 @@ evaluacion-fin-de-año.js
 
 ---
 
-## 📝 Ejercicio 1
+## Ejercicio 1
 Programa que implementa lógica básica en JavaScript utilizando estructuras de control, validaciones y funciones.
 
 ---
 
-## 📝 Ejercicio 2
+## Ejercicio 2
 Sistema de gestión de transacciones que incluye:
 - Registro y validación de datos por consola
 - Uso de promesas para simular carga asíncrona
@@ -29,12 +29,12 @@ Sistema de gestión de transacciones que incluye:
 
 ---
 
-## 📝 Ejercicio 3
+## Ejercicio 3
 Ejercicio enfocado en reforzar el uso de funciones, modularización y lógica en JavaScript.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - JavaScript
 - Node.js
@@ -42,9 +42,10 @@ Ejercicio enfocado en reforzar el uso de funciones, modularización y lógica en
 
 ---
 
-## ▶️ Ejecución
+## ▶Ejecución
 
-Ingresar desde la terminal a la carpeta del ejercicio deseado y ejecutar:
+Ingresar desde la terminal a la carpeta del ejercicio deseado y al al archivo en si.
+Ejemplo donde "X" representa el numero del ejercicio:
 
 ```bash
-node ejercicioX.js
+node ejercicioX/ejercicioX.js
